@@ -2,7 +2,7 @@
 internet_check();
 http_check('https://www.example.com/admin/login', 'Username');
 tcp_check('example.com', '3389');
-dns_check('example.com.', '8.8.8.8');
+dns_check('example.com.', '12.34.56.78');
 
 function internet_check()
 {
